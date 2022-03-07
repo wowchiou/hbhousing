@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="title" content="住商40周年慶，幸福好宅我作「組」！" />
+    <meta
+      name="description"
+      content="住商邀您動手組出自己的夢想家！即日起至12/31(二)止，線上參加好宅我作「組」 活動，並分享到Facebook，即可免費抽tokuyo肩頸鬆按摩器、sogo禮券等眾多好禮！"
+    />
+    <meta name="keyword" contnet="活動,遊戲,抽獎,送禮,獎品,按摩器,禮券" />
+
+    <!-- fb 分享設定 -->
+    <meta property="og:title" content="住商40周年慶，幸福好宅我作「組」！" />
+    <meta
+      property="og:description"
+      content="即日起參加活動組出您的夢想家，並分享到Facebook，即可免費抽肩頸鬆按摩器、SOGO禮券等眾多好禮！"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://hbhousing.megais.com/2019-caricature"
+    />
+    <meta property="og:image" content="./images/fb_share.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="628" />
+
+    <link rel="shortcut icon" href="./images/favicon.ico" />
+
+    <title>住商40周年慶，幸福好宅我作「組」！</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900|Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/lib/swiper.min.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/second.css" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-32646212-11"
+    ></script>
+  </head>
+
+  <body>
+    <header class="max_w1 p_all">
+      <a href="javascript:;" class="logo">
+        <img draggable="false" src="./images/logo.png" alt="" />
+      </a>
+      <div id="menu_toggle">
+        <span></span>
+      </div>
+    </header>
+    <nav class="menu"></nav>
+
+    <section class="main main_game max_w1">
+      <div class="main_title">
+        <img draggable="false" src="./images/a_1.png" alt="" />
+      </div>
+      <div class="game">
+        <div class="game_box">
+          <div class="game_canvas" id="game_canvas">
+            <img
+              draggable="false"
+              src="./images/game/item/1/7.jpg"
+              class="game_wall"
+              alt=""
+            />
+            <img
+              draggable="false"
+              src="./images/game/item/2/1.jpg"
+              class="game_floor"
+              alt=""
+            />
+            <canvas class="canvas" id="canvas_game" width="584" height="580">
+            </canvas>
+            <img
+              draggable="false"
+              src="./images/logo.png"
+              alt=""
+              id="canvas_logo"
+            />
+          </div>
+        </div>
+
+        <div class="game_slider">
+          <!-- 類別slider -->
+          <div>
+            <div class="game_type swiper-container">
+              <div class="swiper-wrapper"></div>
+            </div>
+            <div class="type_next swiper-button-next"></div>
+            <div class="type_prev swiper-button-prev"></div>
+          </div>
+          <!-- 類別slider end -->
+
+          <!-- 項目slider -->
+          <div>
+            <div class="game_item swiper-container">
+              <div class="swiper-wrapper"></div>
+            </div>
+            <div class="item_next swiper-button-next"></div>
+            <div class="item_prev swiper-button-prev"></div>
+          </div>
+          <!-- 項目slider end -->
+        </div>
+        <div class="game_done active">
+          <a href="javascript:;" class="btn2" megais_ga="game_done">
+            <span>
+              <img draggable="false" src="./images/c_3.png" alt="" />
+            </span>
+            <img draggable="false" src="./images/c_2.png" alt="" />
+          </a>
+        </div>
+        <div class="game_btns">
+          <div class="btn_wrap">
+            <div class="btn big_btn" title="放大">
+              <img draggable="false" src="./images/c_39.png" alt="放大" />
+            </div>
+            <div class="btn small_btn" title="縮小">
+              <img draggable="false" src="./images/c_40.png" alt="縮小" />
+            </div>
+            <div class="btn rotate_left" title="左旋轉">
+              <img draggable="false" src="./images/c_8.png" alt="左旋轉" />
+            </div>
+            <div class="btn rotate_right" title="右旋轉">
+              <img draggable="false" src="./images/c_7.png" alt="右旋轉" />
+            </div>
+            <div class="btn top_btn" title="置頂">
+              <img draggable="false" src="./images/c_43.png" alt="置頂" />
+            </div>
+            <div class="btn bottom_btn" title="置底">
+              <img draggable="false" src="./images/c_44.png" alt="置底" />
+            </div>
+            <div class="btn delet_btn" title="刪除">
+              <img draggable="false" src="./images/c_6.png" alt="刪除" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="game_text">
+        <a href="javascript:;">
+          <img draggable="false" src="./images/c_1.png" alt="" />
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <span>住商實業股份有限公司</span>
+      <span> Copyright © 2019 H&B Business group. All Rights Rese </span>
+    </footer>
+
+    <div class="popup capture">
+      <div class="popup_wrap">
+        <div class="popup_content">
+          <img
+            draggable="false"
+            src="./images/popup_close.png"
+            class="popup_close"
+            alt=""
+          />
+          <div class="capture_pic">
+            <div class="capture_canvas" id="my_pic"></div>
+            <div class="canvas_cover">
+              <img class="canvas_cover" src="" alt="" />
+            </div>
+            <div class="canvas_tip">
+              <img draggable="false" src="" alt="" />
+            </div>
+          </div>
+          <div class="capture_wrap">
+            <div class="capture_cont">
+              <img draggable="false" src="./images/c_14.png" alt="" />
+            </div>
+            <div class="capture_share">
+              <a href="javascript:;" class="btn">
+                <img draggable="false" src="./images/c_15.png" alt="" />
+              </a>
+            </div>
+            <div class="capture_btns">
+              <a
+                href="javascript:;"
+                class="btn2 download_btn"
+                megais_ga="game_download"
+              >
+                <img draggable="false" src="./images/c_12.png" alt="" />
+              </a>
+              <a href="javascript:;" class="btn again_btn">
+                <img draggable="false" src="./images/c_13.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup info">
+      <div class="popup_wrap">
+        <div class="popup_content">
+          <img
+            draggable="false"
+            src="./images/popup_close.png"
+            class="popup_close"
+            alt=""
+          />
+          <div class="info_title">
+            <img draggable="false" src="./images/c_16.png" alt="" />
+          </div>
+          <form action="" class="info_form">
+            <span>基本資料</span>
+            <div class="info_group">
+              <label>
+                <img
+                  draggable="false"
+                  src="./images/c_17.png"
+                  alt=""
+                  class="info_title1"
+                />
+              </label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="請填寫您的真實姓名"
+              />
+            </div>
+            <div class="info_group">
+              <label>
+                <img
+                  draggable="false"
+                  src="./images/c_18.png"
+                  alt=""
+                  class="info_title2"
+                />
+              </label>
+              <input
+                type="text"
+                id="phone"
+                name="phone"
+                placeholder="EX:0911222333"
+                maxlength="10"
+              />
+            </div>
+            <div class="info_group">
+              <label>
+                <img
+                  draggable="false"
+                  src="./images/c_19.png"
+                  alt=""
+                  class="info_title3"
+                />
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="EX:abc123@H&B.com"
+              />
+            </div>
+            <div class="info_group" id="twzipcode">
+              <label>
+                <img
+                  draggable="false"
+                  src="./images/c_20.png"
+                  alt=""
+                  class="info_title4"
+                />
+              </label>
+              <div
+                class="selector city"
+                data-role="county"
+                data-name="city"
+                id="city"
+              ></div>
+              <div
+                class="selector area"
+                data-role="district"
+                data-name="area"
+                id="area"
+              ></div>
+              <div
+                class="selector code"
+                style="display: none"
+                data-role="zipcode"
+                data-name="zip"
+                id="zip"
+              ></div>
+            </div>
+            <div class="info_group">
+              <label></label>
+              <input type="text" id="address" name="address" />
+            </div>
+            <div class="info_btns">
+              <label class="btn reset_btn">
+                <input type="reset" name="reset" value="" />
+                <img draggable="false" src="./images/c_21.png" alt="" />
+              </label>
+              <a
+                href="javascript:;"
+                class="btn next_btn"
+                megais_ga="game_send-form"
+              >
+                <img draggable="false" src="./images/c_22.png" alt="" />
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup share">
+      <div class="popup_wrap">
+        <div class="popup_content">
+          <img
+            draggable="false"
+            src="./images/popup_close.png"
+            class="popup_close"
+            alt=""
+          />
+          <div class="share_title">
+            <img
+              draggable="false"
+              src="./images/c_23.png"
+              class="share_normal"
+              alt=""
+            />
+          </div>
+          <div class="share_btns">
+            <a href="javascript:;" class="btn share_skip">
+              <img draggable="false" src="./images/c_24.png" alt="" />
+            </a>
+            <a href="javascript:;" class="btn share_btn" megais_ga="game_share">
+              <img draggable="false" src="./images/c_25.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup thank">
+      <div class="popup_wrap">
+        <div class="popup_content">
+          <img
+            draggable="false"
+            src="./images/popup_close.png"
+            class="popup_close"
+            alt=""
+          />
+          <div class="thank_title">
+            <img draggable="false" src="./images/c_27.png" alt="" />
+          </div>
+          <div class="thank_btns">
+            <a href="javascript:;" class="btn thank_again">
+              <img draggable="false" src="./images/c_28.png" alt="" />
+            </a>
+            <a
+              href="http://40thsp.hbhousing.com.tw"
+              class="btn thank_look"
+              target="_blank"
+            >
+              <img draggable="false" src="./images/c_29.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup step step1 active">
+      <div class="popup_wrap">
+        <div class="popup_content">
+          <img
+            draggable="false"
+            src="./images/popup_close.png"
+            class="popup_close"
+            alt=""
+          />
+          <div class="step_pic">
+            <img draggable="false" src="./images/c_37.jpg" alt="" />
+          </div>
+          <div class="step_btns">
+            <a href="javascript:;" class="btn step_next step1_next">
+              <img draggable="false" src="./images/c_31.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup step step2">
+      <div class="popup_wrap">
+        <div class="popup_content">
+          <img
+            draggable="false"
+            src="./images/popup_close.png"
+            class="popup_close"
+            alt=""
+          />
+          <div class="step_pic">
+            <img draggable="false" src="./images/c_38.jpg" alt="" />
+          </div>
+          <div class="step_btns">
+            <a href="javascript:;" class="btn step_next step2_next">
+              <img draggable="false" src="./images/c_31.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup step step3">
+      <div class="popup_wrap">
+        <div class="popup_content">
+          <img
+            draggable="false"
+            src="./images/popup_close.png"
+            class="popup_close"
+            alt=""
+          />
+          <div class="step_pic">
+            <img draggable="false" src="./images/c_45.gif" alt="" />
+          </div>
+          <div class="step_btns">
+            <a href="javascript:;" class="btn step_start">
+              <img draggable="false" src="./images/c_36.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="srcoll_top">
+      <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+    <script src="https://kit.fontawesome.com/fe116d1d5e.js"></script>
+    <script src="./js/lib/swiper.min.js"></script>
+    <script src="./js/lib/jquery.twzipcode.min.js"></script>
+    <script src="./js/lib/polyfill.min.js"></script>
+    <script src="./js/lib/html2canvas.min.js"></script>
+    <script src="./js/lib/canvas2image.js"></script>
+    <script src="./js/tracking.js"></script>
+    <script src="./js/facebook.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/game.js"></script>
+  </body>
+</html>
