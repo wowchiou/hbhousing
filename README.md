@@ -2,10 +2,10 @@
 
 使用 JQuery 搭配 create.js 製作紙娃娃遊戲活動
 
-技術：
+技術：<br>
 JQuery、css、RWD、create.js、Facebook api
 
-網站：
+網站：<br>
 https://hbhousing.mg.megais.com/2019-caricature/
 
 首頁、紙娃娃遊戲、圖片下載
